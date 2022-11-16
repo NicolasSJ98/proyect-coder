@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Femo</title>
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Inicio de la navegación -->
+      <nav class="navigation1">
+        <div>
+          <a href="index.html"
+            ><img
+              src="images/logo.png"
+              alt="logo de un libro abierto"
+              width="120"
+              id="logo"
+          /></a>
+        </div>
+        <ul>
+          <li><a href="pages/ebooks.html">Ebooks</a></li>
+          <li><a href="pages/libros.html">Libros</a></li>
+          <li><a href="#era">La Era Moderna</a></li>
+          <li><a href="#losclasicos">Los clásicos más clásicos</a></li>
+          <li>
+            <a href="#">Mi cuenta </a>
+          </li>
+          <a href="pages/cuenta.html"
+            ><img src="images/cuenta.png" alt="" width="60"
+          /></a>
+          <li><a href="#">Mis libros</a></li>
+          <a href="#"><img src="images/libros.png" alt="" width="60" /></a>
+          <li><a href="#">Mi carrito</a></li>
+          <a href=""><img src="images/carrito.png" alt="" width="50" /></a>
+        </ul>
+      </nav>
+      <div class="search">
+        <input type="search" placeholder="Buscar" />
+        <input type="submit" value="Buscar" />
+      </div>
+    </header>
+    <!-- Fondo de la primera parte del Wireframe -->
+    <section>
+      <h1>Femo</h1>
+      <h2>Tus libros favoritos en un solo lugar...</h2>
+      <h2>...y sin salir de casa</h2>
+      <div class="caja1"></div>
+    </section>
+    <!-- Inicio de la sección La Era Moderna -->
+    <main>
+      <h2 id="era">La Era Moderna</h2>
+      <!-- Imágenes de los libros -->
+      <div class="era">
+        <img
+          src="images/La Era Moderna/annie-en-mis-pensamientos.jpeg"
+          alt="Portada del libro Annie en mis pensamientos"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/chicos-que-me-enamoré.jpeg"
+          alt="Portada del libro Todos los chicos de los que me enamoré"
+          class="foto"
+          width="120"
+        />
+        <a href="pages/articulo.html"
+          ><img
+            src="images/La Era Moderna/harry-potter.jpeg"
+            alt="Portada del libro Harry Potter y la piedra filosofal"
+            class="foto"
+            width="120"
+        /></a>
+        <img
+          src="images/La Era Moderna/heartstopper.jpeg"
+          alt="Portada del libro Heartstopper"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/la-chica-del-tren.jpeg"
+          alt="Portada del libro La chica del tren"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/mexicoland.jpeg"
+          alt="Portada del libro Mexicoland"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/rowel.jpeg"
+          alt="Portada del libro Eleanor & Park"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/principe-del-sol.jpeg"
+          alt="Portada del libro Principe del Sol"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/desfribilador.jpeg"
+          alt="Portada del libro El Desfribilador"
+          class="foto"
+          width="120"
+        />
+        <img
+          src="images/La Era Moderna/cazadores-de-sombras.jpeg"
+          alt="Portada del libro Cazadores de sombras"
+          class="foto"
+          width="120"
+        />
+      </div>
+      <!-- Fin de la sección La Era Moderna -->
+      <!-- Inicio de la sección Vista previa de libros en Tu Lista -->
+      <section class="contenedor">
+        <div class="caja">Vista previa de tus libros favoritos</div>
+        <div class="caja3"></div>
+      </section>
+      <!-- Fin de la sección Vista previa de libros en Tu Lista -->
+      <!-- Inicio de la sección Busca tu nuevo libro -->
+      <section class="contenedor">
+        <div class="caja2">
+          Busca tu nuevo libro <input type="search" placeholder="Buscar" />
+        </div>
+      </section>
+      <!-- Fin de la sección Busca tu nuevo libro -->
+      <!-- Inicio de la sección Los Clásicos más Clásicos -->
+      <section>
+        <h2 id="losclasicos">Los clásicos más clásicos</h2>
+        <div class="caja4">
+          <div>
+            <img
+              src="images/Los clásicos más clásicos/1984.jpeg"
+              alt="Portada del libro 1984"
+              width="120"
+            />
+            <img
+              src="images/Los clásicos más clásicos/ana-de-las-tejas-verdes.jpeg"
+              alt="Portada del libro Ana de las Tejas Verdes"
+              width="120"
+            />
+            <img
+              src="images/Los clásicos más clásicos/frankenstein.jpeg"
+              alt="Portada del libro Frankenstein"
+              width="120"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Inicio de la sección Lo más vendidos -->
+      <!-- Inicio del Formulario -->
+      <section>
+        <div class="caja5">
+          <section>
+            <span
+              >¿Te gustaría recibir noticias y descuentos para tus libros
+              favoritos?</span
+            >
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" />
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+            <input type="submit" value="Enviar" />
+          </section>
+        </div>
+      </section>
+    </main>
+    <!-- Fin del Formulario -->
+    <!-- Inicio del Footer -->
+    <footer>
+      <div class="fondo">
+        <div>Más libros</div>
+        <div>
+          <img
+            src="images/Los clásicos más clásicos/maus.jpeg"
+            alt="Portada del libro MAUS"
+            width="100"
+          />
+          <img
+            src="images/Los clásicos más clásicos/la-llamada-de-cthulhu.jpeg"
+            alt="Portada del libro La llamada de Cthulu"
+            width="100"
+          />
+          <img
+            src="images/Los clásicos más clásicos/don-quijote.jpeg"
+            alt="Portada del libro Don Quijote de la Mancha"
+            width="100"
+          />
+          <img
+            src="images/La Era Moderna/huevos-farbege.jpeg"
+            alt="Portada del libro El Secreto de los huevos de Fabergé"
+            width="100"
+          />
+        </div>
+        <div><a href="#">Regístrate gratis</a></div>
+        <div class="column">
+          <a href="pages/ebooks.html">Ebooks</a>
+          <a href="pages/libros.html">Libros</a>
+          <a href="#">Vista previa</a>
+          <a href="pages/cuenta.html">Tu cuenta</a>
+          <a href="#">Mis libros</a>
+          <a href="#">Mi carrito</a>
+          <a href="#era">La Era Moderna</a>
+          <a href="#losclasicos">Los clásicos más clásicos</a>
+        </div>
+        <div class="column">
+          <div>Nuestras redes sociales</div>
+          <div class="redes-sociales">
+            <img
+              src="images/redes/facebook.png"
+              alt="logo de Facebook"
+              width="30"
+            />
+            <img
+              src="images/redes/gorjeo.png"
+              alt="logo de Twitter"
+              width="30"
+            />
+            <img
+              src="images/redes/instagram.png"
+              alt="logo de Instagram"
+              width="30"
+            />
+            <img
+              src="images/redes/wattpad.png"
+              alt="logo de Wattpad"
+              width="30"
+            />
+            <img
+              src="images/redes/youtube.png"
+              alt="logo de Youtube"
+              width="30"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="copy">&copy; 2020 Copyright: Femo.com</div>
+    </footer>
+    <!-- Fin del footer -->
+  </body>
+</html>
