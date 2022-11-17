@@ -29,3 +29,6 @@ footer {
   justify-content: center;
   background-color: #cdb4db;
 }
+img:hover {
+  transform: translate(50 px);
+}
