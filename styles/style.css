@@ -29,6 +29,11 @@ footer {
   justify-content: center;
   background-color: #cdb4db;
 }
-img:hover {
-  transform: translate(50 px);
+.foto :hover {
+  transform: translate(500 px);
+}
+.nave {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
 }
