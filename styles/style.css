@@ -34,8 +34,8 @@ footer {
 }
 .era {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
 .caja1 {
   width: 1200px;
