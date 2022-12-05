@@ -6,36 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Femo</title>
     <link rel="icon" href="../images/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
-      <a href="../index.html"
-        ><img
-          src="../images/logo.png"
-          alt="logo de un libro abierto"
-          width="120"
-      /></a>
       <!-- Inicio de la navegación -->
-      <nav class="navigation1">
-        <ul>
-          <li><a href="ebooks.html">Ebooks</a></li>
-          <li><a href="libros.html">Libros</a></li>
-          <li><a href="#era">La Era Moderna</a></li>
-          <li><a href="#losclasicos">Los clásicos más clásicos</a></li>
-          <li>
-            <a href="cuenta.html">Mi cuenta </a>
-          </li>
-          <a href="cuenta.html"
-            ><img src="../images/cuenta.png" alt="" width="60"
-          /></a>
-          <li><a href="#">Mis libros</a></li>
-          <a href="#"><img src="../images/libros.png" alt="" width="60" /></a>
-          <li><a href="#">Mi carrito</a></li>
-          <a href=""><img src="../images/carrito.png" alt="" width="50" /></a>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand femo" href="index.html">Femo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pages/ebooks.html"
+                  >Ebooks</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/libros.html">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#era">La Era Moderna</a>
+              </li>
+              <li class="nav-item">
+                <a href="#losclasicos" class="nav-link"
+                  >Los clásicos más clásicos</a
+                >
+              </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="pages/cuenta.html" class="nav-link">Mi Cuenta</a>
+                  <a href="pages/cuenta.html"
+                    ><img src="images/cuenta.png" alt="" width="60"
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Mis Libros</a>
+                  <a href="#"
+                    ><img src="images/libros.png" alt="" width="60"
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Mi Carrito</a>
+                  <a href=""
+                    ><img src="images/carrito.png" alt="" width="50"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </nav>
-      <input type="search" placeholder="Busca tu próximo libro" />
-      <input type="submit" value="Buscar" />
     </header>
     <main>
       <div class="container">
@@ -82,73 +121,69 @@
       </div>
     </main>
     <footer>
-      <div class="fondo">
-        <div>Más libros</div>
-        <div>
-          <img
-            src="../images/la-era-moderna/la-vida-invisible.jpeg"
-            alt="Portada del libro La Vida Invisible"
-            width="100"
-          />
-          <img
-            src="../images/los-clasicos-mas-clasicos/dorian-gray.jpeg"
-            alt="Portada del libro El Retrato de Dorian Gray"
-            width="100"
-          />
-          <img
-            src="../images/los-clasicos-mas-clasicos/la-llamada-de-cthulhu.jpeg"
-            alt="Portada del libro La Llamada de Cthulhu"
-            width="100"
-          />
-          <img
-            src="../images/la-era-moderna/mexicoland.jpeg"
-            alt="Portada del libro Mexicoland"
-            width="100"
-          />
-        </div>
-        <div><a href="#">Regístrate gratis</a></div>
-        <div class="column">
-          <a href="ebooks.html">Ebooks</a>
-          <a href="libros.html">Libros</a>
-          <a href="#">Vista previa</a>
-          <a href="cuenta.html">Mi cuenta</a>
-          <a href="#">Mis libros</a>
-          <a href="#">Mi carrito</a>
-          <a href="../index.html/#era">La Era Moderna</a>
-          <a href="../index.html/#losclasicos">Los clásicos más clásicos</a>
-        </div>
-        <div class="column">
-          <div>Nuestras redes sociales</div>
-          <div class="redes-sociales">
-            <img
-              src="../images/redes/facebook.png"
-              alt="logo de Facebook"
-              width="30"
-            />
-            <img
-              src="../images/redes/gorjeo.png"
-              alt="logo de Twitter"
-              width="30"
-            />
-            <img
-              src="../images/redes/instagram.png"
-              alt="logo de Instagram"
-              width="30"
-            />
-            <img
-              src="../images/redes/wattpad.png"
-              alt="logo de Wattpad"
-              width="30"
-            />
-            <img
-              src="../images/redes/youtube.png"
-              alt="logo de Youtube"
-              width="30"
-            />
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
       </div>
-      <div>&copy; 2020 Copyright: Femo.com</div>
-    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
